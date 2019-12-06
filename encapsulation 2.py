@@ -49,5 +49,5 @@ drive
 drive
 200
 
-here the value of the __maxspeed is not changed because of that is private variable
-so private variaables are cont change out side of the calss
+'here the value of the __maxspeed is not changed to 100 because of that is private variable'
+'so private variaables are cont change out side of the calss'

@@ -48,3 +48,26 @@ blackcar.__updatesoftware()
 output:
 shows error because of __ update is a private method we cont accet outside the classmethod
 but we can call with in the class as like the above programm
+
+=====================================================
+class car:
+    def __init__(self):
+        self.__updatesoftware()
+
+    def drive(self):
+        print('driwing')
+
+    def __updatesoftware(self):
+        print('updating software')
+
+blackcar=car()
+blackcar.drive()
+blackcar._car__updatesoftware()
+
+output:
+updating software
+driwing
+updating software
+
+#we can access private methods also out side the class
+#because of we are accessing the method usein (obj._class__method()) in this way we can get the output

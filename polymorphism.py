@@ -36,5 +36,6 @@ flying_test(peggy)
 
 
 
+]
 output;Parrot can fly
        Penguin can't fly
